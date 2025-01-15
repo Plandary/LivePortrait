@@ -44,7 +44,7 @@ async def process_video(request: GenerateRequest):
 
     return {
         "status": "success",
-        "output": request.output_dir + result
+        "output": result
     }
 
 if __name__ == "__main__":
